@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+
+<div>
+    <h3>List of laptop brands: </h3> <br />
+    <input type="button" value="List" onClick="getLaptopList()">
+    <div id="demo"></div>
+</div>
+
+<script>
+    function getLaptopList() {
+        let laptop = ["Lenovo", "HP", "Apple", "Dell", "Acer", "Sony"];
+        let text = "<b>";
+        for(let i = 0; i < laptop.length; i++) {
+            text += "<ol>" + (i+1) + " : " + laptop[i] + "</ol>";
+        }
+
+        document.getElementById("demo").innerHTML = text;
+    }
+</script>
+<!-- <h1>This is a <b>Blood Donation</b> camp!</h1>
+<p>Please Enter Your Favourite Book: </p> 
+
+<input type = "text" id = "ageField">
+<input type = "button" value = "Submit" onClick = "checkEligibility()">
+
+<input type ="text" id ="bookField">
+<input type="button" value="Submit" onClick="checkRepository()">
+
+<script src = "ifelse.js"></script> -->
+
+<!-- <h3>Temperature Conversion: </h3>
+<div>
+    <h4>Emter the current Temperature: </h4>
+    <h5>
+        Conversion Factor : <br />
+        <input type="radio" value="toCelcius" name="option" id="farenheit">to-Celcius
+        <br />
+        <input type="radio" value="toFarenheit" name="option" id="celcius">to-Farenheit
+    </h5>
+    <div>
+        <input type="text" id="temp-value">
+    </div> <br />
+    <input type="button" value="submit" onClick="calculate()">
+    <div id="conversion"><br />
+    <h4>conversion value : </h4>
+    </div>
+</div>
+<script src = "calculus.js"></script> -->
+
+<!-- <p>Please Enter Your Exam Grade: </p>  -->
+
+<!-- <input type = "text" id = "grade">
+<input type = "button" value = "Submit" onClick = "gradeRemark()"> -->
+
+
+<!-- <h3>JavaScript Array List: </h3>
+<div id="placesList">
+    <input type="button" value="Places" onClick="getPlaces()">
+</div> -->
+
+<!-- <h3>JavaScript Prompt-Alert: </h3>
+<div>
+    <input type="button" value="Prompt" onClick="message()">
+</div>
+<script src = "prompt.js"></script> -->
+
+<!-- <script src = "forEachLoop.js"></script> -->
+
+<!-- <p>Please Enter Number for Math Table: </p> 
+<input type = "text" id = "mathTable">
+<input type = "button" value = "Submit" onClick = "getMathTable()">
+
+<script src = "jsWhile.js"></script> -->
+
+<!-- <div><input type = "button" value = "submit" onclick = "message()"></div>
+<script src = "alertScript.js"></script> -->
+
+</body>
+</html>
